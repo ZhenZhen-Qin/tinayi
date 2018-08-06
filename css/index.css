@@ -1,0 +1,144 @@
+/* 
+* @Author: Marte
+* @Date:   2018-08-05 16:20:08
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-08-05 17:25:19
+*/
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#top{
+    width: 100%;
+    height: 52px;
+    background: #000000;
+}
+.top{
+    height:52px;
+    background:white;
+}
+.top_logo{
+    display:block;
+    width: 128px;
+    height:52px;
+    background:url(../img/logo.png)no-repeat;
+    text-indent:-9999em;
+
+}
+.top_menu li{
+    float:left;  
+}
+.top_menu li a{
+    display:inline-block;
+    width: 100px;
+    height:52px;
+    text-align: center;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#banner{
+    width: 100%;
+    background: #24272c;
+}
+.banner{
+    margin: 0 auto;
+    position: relative;
+}
+.banner h2{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 15px;
+    position:absolute;
+
+}
+.banner h2:nth-child(2){
+    top: 10%;
+    left: 15%;
+}
+.banner h2:nth-child(3){
+    top: 40%;
+    left: 10%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 450px;
+    background: url("../img/main.jpg")no-repeat;
+    background-attachment: fixed;
+    background-size:auto 100%;
+    background-position: center center;
+}
+@media (min-width: 768px){
+    #main{
+        background-size: 100% 110%;
+        background-position: 20% center;
+        /*transform: scale(0.5);*/
+    }
+}
+
+/*#ad*/
+
+#adv{
+    padding-top: 20px;
+}
+.ad_thu{
+    float:left;
+}
+.ad_box{
+    width: 100%;
+    text-align: center;
+}
+.box_h{
+    height: 340px;
+}
+
+
+@media (width: 768px) {
+    #main{
+        width: 100%;
+        height: 400px;
+        background: url("../img/main.jpg")no-repeat;
+        background-attachment: fixed;
+        background-size:100% auto;
+        background-position: center center;
+    }
+}
+
+#main_1{
+    padding-top: 10px;
+}
+
+#detail_news{
+    padding-top:20px;
+}
+
+
+#foot{
+    width: 100%;
+    height: 200px;
+    background: #08071e;
+}
+#foot .foot_left{
+    /*background: red;*/
+    box-sizing: border-box;
+    width:40%;
+    padding: 20px ;
+}
+#foot .foot_mid{
+    /*background: deepskyblue;*/
+    box-sizing: border-box;
+    width: 30%;
+    padding: 20px ;
+}
+#foot .foot_right{
+    /*background: yellow;*/
+    box-sizing: border-box;
+    width: 30%;
+    padding: 20px ;
+}
